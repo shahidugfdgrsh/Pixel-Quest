@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Fighting Game</title>
+    <style>
+        body { margin: 0; background: black; overflow: hidden; touch-action: none; }
+        canvas { display: block; background: #222; border: 2px solid white; }
+        .controls {
+            position: fixed; bottom: 10px; width: 100%; text-align: center;
+        }
+        button {
+            padding: 15px; font-size: 18px; margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="gameCanvas"></canvas>
+    <div class="controls">
+        <button id="leftP1">←</button>
+        <button id="rightP1">→</button>
+        <button id="attackP1">Attack</button>
+        <br>
+        <button id="leftP2">←</button>
+        <button id="rightP2">→</button>
+        <button id="attackP2">Attack</button>
+    </div>
+    <script src="game.js"></script>
+</body>
+  </html>
+  
